@@ -80,7 +80,7 @@ app.delete('/api/playlists/:id', async function(request, response) {
   //     response.status(204).send();
   //   }, () => {
   //     response.status(404).send();
-  //   });
+  //   })
 });
 
 app.post('/api/artists', async function(request, response) {
