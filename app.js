@@ -87,7 +87,7 @@ app.post('/api/artists', async function(request, response) {
   
   try {
 
-  await Artist.create({
+  let artist =  await Artist.create({
     name: request.body.name
   })
 
